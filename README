@@ -1,0 +1,13 @@
+See http://musescore.org/en/project/soundcloud
+
+
+What's new?
+-----------
+- updated to work with 0.9.6.3
+- UTF-8 support
+- Support oauth 1.0a
+- Metadata dialog with title, description, private/public, tags, license and genre.
+- Token is tested before any user input. If the token is not valid, the user is asked
+to authorize MuseScore again.
+
+
