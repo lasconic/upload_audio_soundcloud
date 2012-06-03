@@ -1038,6 +1038,10 @@ var fileSettings = "settings.txt";
 
 function run()
   {
+    // no score open (MuseScore 2.0+, can't happen earlier)
+    if (typeof curScore === 'undefined')
+      return;
+
     if(loadSettings()){
       testGet();
     }else{
