@@ -1038,6 +1038,8 @@ var fileSettings = "settings.txt";
 
 function run()
   {
+    if (typeof curScore === 'undefined')
+        return;
     if(loadSettings()){
       testGet();
     }else{
